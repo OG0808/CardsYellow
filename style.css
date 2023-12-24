@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Black: #111111;
+  --Pure-White: #ffffff;
+  --Yellow: #f4d04e;
+  --Grey: #7f7f7f;
+}
+
+body {
+  background: var(--Yellow);
+}
+
+.main__container {
+  margin: 10rem auto;
+  display: flex;
+  max-width: 384px;
+  width: 100%;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid var(--Black, #111);
+  background: var(--Pure-White, #fff);
+  box-shadow: 16px 16px 0px 0px #000;
+}
+
+.main__container-image {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 10px;
+  background: var(--Yellow, #f4d04e);
+}
+
+.main__container-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  width: 279px;
+}
+
+.main__container-info-button {
+  display: flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: var(--Yellow, #f4d04e);
+  color: var(--Black, #111);
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 18px */
+  border: none;
+}
+
+.main__container-info-date {
+  color: var(--Black, #111);
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 18px */
+}
+
+.main__container-info-title {
+  align-self: stretch;
+  color: var(--Black, #111);
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 30px */
+}
+
+.main__container-info-text {
+  align-self: stretch;
+  color: var(--Grey, #7f7f7f);
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+}
+
+
+.main__container-info-profile{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.main__container-info-profile-image{
+  width: 32px;
+  height: 32px;
+}
+
+.main__container-info-profile-name{
+  color: var(--Black, #111);
+
+  /* Body S (Bold) */
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 21px */
+}
+
+.attribution{
+  display:flex;
+  justify-content: center;
+}
